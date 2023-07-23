@@ -1,0 +1,6 @@
+rootProject.name = 'DamageHelper'
+include 'nms'
+include 'core'
+include 'nms:v1_20_R1'
+findProject(':nms:v1_20_R1')?.name = 'v1_20_R1'
+
